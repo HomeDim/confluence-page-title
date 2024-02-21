@@ -8,8 +8,8 @@
   	},
 	"content_scripts": [
 		{
-			"matches": [".*confluence"],
-    		"js": ["make_titles.js"]
+			"matches": ["*://*/pages/*"],
+    			"js": ["make_titles.js"]
     	}
     ]
 }
